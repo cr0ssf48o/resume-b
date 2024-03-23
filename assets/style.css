@@ -52,17 +52,17 @@ body {
 .container {
     display: grid;
     grid-template-columns: 40% 60%;
-    width: 91vh;
-    height: 139vh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    width: 53rem;
+    height: 77rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .right-section {
     display: grid;
     grid-template-rows: 30% 15% 25% 15% 15%;
     background-color: #323232;
-    border-radius: 111vh 111vh 0 0;
+    border-radius: 11.25rem  11.25rem 0 0;
     overflow: hidden;
 }
 
@@ -73,10 +73,10 @@ body {
 }
 
 .right-a img {
-    margin-top: 1.5vh;
-    height: 34vh;
-    width: 33.8vh;
-    border-radius: 30vh;
+    margin-top: .8rem;
+    height: 21rem;
+    width: 20rem;
+    border-radius: 21rem;
     object-fit: cover;
 }
 
@@ -91,15 +91,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: #d9d9d9;
-    height: 4vh;
-    width: 25vh;
+    height: 2.3rem;
+    width: 16rem;
     border-radius: 0 6.25rem 6.25rem 0;
 }
 
 .right-b h1 {
     text-indent: 1.25rem;
     border-radius: 0 100px 100px 0;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
 }
 
 .right-b-content {
@@ -149,8 +149,8 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: #d9d9d9;
-    height: 4vh;
-    width: 33vh;
+    height: 2.3rem;
+    width: 19.5rem;
     border-radius: 0 6.25rem 6.25rem 0;
 }
 
@@ -163,7 +163,7 @@ body {
 .right-c h1 {
     text-indent: 1.25rem;
     border-radius: 0 6.25rem 6.25rem 0;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
 }
 
 .right-c-content h1 {
@@ -217,7 +217,7 @@ body {
 .right-d h1 {
     text-indent: 1.25rem;
     border-radius: 0 100px 100px 0;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
 }
 
 .right-d-content {
@@ -284,25 +284,6 @@ body {
     width: 60%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .right-e {
     display: flex;
     flex-direction: column;
@@ -323,7 +304,7 @@ body {
 .right-e h1 {
     text-indent: 1.25rem;
     border-radius: 0 100px 100px 0;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
 }
 
 .right-e-content {
@@ -391,18 +372,21 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .left-section {
     background-color: #d9d9d9;
 }
 
+@media only screen and (max-width: 360px) {
+
+    html {
+        font-size: 7px;
+    }
+
+
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+}

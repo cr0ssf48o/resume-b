@@ -487,53 +487,54 @@ body {
     background-color: #f7f7f7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 880px) {
+@media screen and (max-width: 880px) {
 
     html {
+        
         font-size: 10px;
     }
 
     body {
         display: flex;
-        justify-content: center;
+        align-items: center;
     }
-
 }
 
-
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
 
     html {
+        
+        font-size: 8px;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    html {
+        
         font-size: 7px;
     }
 
     body {
         display: flex;
-        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    html {
+        
+        font-size: 6px;
     }
 
+    body {
+        display: flex;
+        align-items: center;
+    }
 }
